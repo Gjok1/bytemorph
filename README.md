@@ -1,4 +1,6 @@
 ### Usage
+The code can be run locally or if you want to access GPU on googla colab you can copy and paste the code into a GPU runtime. It handles both running on CPU or GPU.
+
 # Step 1: Install dependencies 
 Execute on terminal:
 ```
@@ -32,3 +34,4 @@ These probabilities are converted into frequency tables and used by the arithmet
 
 The binary stream is decoded using the arithmetic decoder.
 At each step, the GPT-2 model predicts the next token based on the context, and the decoder identifies the most likely token using the frequency table.
+
